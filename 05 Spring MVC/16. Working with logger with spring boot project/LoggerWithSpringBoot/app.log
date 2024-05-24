@@ -1,0 +1,21 @@
+2024-05-21T12:55:42.653+05:30  INFO 6740 --- [LoggerWithSpringBoot] [restartedMain] c.l.s.LoggerWithSpringBootApplication    : Starting LoggerWithSpringBootApplication using Java 17.0.9 with PID 6740 (C:\Users\DELL\RaHuL\Master Spring Boot with Real time Project\05 Spring MVC\16. Working with logger with spring boot project\LoggerWithSpringBoot\target\classes started by DELL in C:\Users\DELL\RaHuL\Master Spring Boot with Real time Project\05 Spring MVC\16. Working with logger with spring boot project\LoggerWithSpringBoot)
+2024-05-21T12:55:42.656+05:30 DEBUG 6740 --- [LoggerWithSpringBoot] [restartedMain] c.l.s.LoggerWithSpringBootApplication    : Running with Spring Boot v3.2.5, Spring v6.1.6
+2024-05-21T12:55:42.658+05:30  INFO 6740 --- [LoggerWithSpringBoot] [restartedMain] c.l.s.LoggerWithSpringBootApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-05-21T12:55:42.874+05:30  INFO 6740 --- [LoggerWithSpringBoot] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-05-21T12:55:42.876+05:30  INFO 6740 --- [LoggerWithSpringBoot] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-05-21T12:55:44.518+05:30  INFO 6740 --- [LoggerWithSpringBoot] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-05-21T12:55:44.545+05:30  INFO 6740 --- [LoggerWithSpringBoot] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-21T12:55:44.546+05:30  INFO 6740 --- [LoggerWithSpringBoot] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-21T12:55:44.630+05:30  INFO 6740 --- [LoggerWithSpringBoot] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-21T12:55:44.631+05:30  INFO 6740 --- [LoggerWithSpringBoot] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1754 ms
+2024-05-21T12:55:45.241+05:30  WARN 6740 --- [LoggerWithSpringBoot] [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-05-21T12:55:45.336+05:30  INFO 6740 --- [LoggerWithSpringBoot] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-05-21T12:55:45.398+05:30  INFO 6740 --- [LoggerWithSpringBoot] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-05-21T12:55:45.417+05:30  INFO 6740 --- [LoggerWithSpringBoot] [restartedMain] c.l.s.LoggerWithSpringBootApplication    : Started LoggerWithSpringBootApplication in 3.525 seconds (process running for 4.343)
+2024-05-21T12:55:48.198+05:30  INFO 6740 --- [LoggerWithSpringBoot] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-21T12:55:48.199+05:30  INFO 6740 --- [LoggerWithSpringBoot] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-05-21T12:55:48.201+05:30  INFO 6740 --- [LoggerWithSpringBoot] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-05-21T12:55:48.271+05:30  INFO 6740 --- [LoggerWithSpringBoot] [http-nio-8080-exec-2] c.l.s.controller.StudentController       : Student ID: 1 Testing argument
+2024-05-21T12:55:48.275+05:30  WARN 6740 --- [LoggerWithSpringBoot] [http-nio-8080-exec-2] c.l.s.controller.StudentController       : Student Name: Rahul 
+2024-05-21T12:55:48.275+05:30  INFO 6740 --- [LoggerWithSpringBoot] [http-nio-8080-exec-2] c.l.s.controller.StudentController       : RegNo: 12ESB3
+2024-05-21T12:55:48.275+05:30 DEBUG 6740 --- [LoggerWithSpringBoot] [http-nio-8080-exec-2] c.l.s.controller.StudentController       : this is test for DEBUG
