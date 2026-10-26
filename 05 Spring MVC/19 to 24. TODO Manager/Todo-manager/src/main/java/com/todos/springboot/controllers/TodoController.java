@@ -78,4 +78,20 @@ public class TodoController {
         todoServices.deleteTodo(todoId);
         return ResponseEntity.ok("Todo Deleted Successfully");
     }
+
+//    //Exception Handler for a specific controller
+//    @ExceptionHandler(NullPointerException.class)
+//    public ResponseEntity<String> nullPointerExceptionHandler(NullPointerException ex){
+//        System.out.println("Null Pointer Exception generated"+ex.getMessage());
+//
+//        return new ResponseEntity<>("Null Pointer Exception generated"+ex.getMessage(), HttpStatus.INTERNAL_SERVER_ERROR);
+//    }
+//
+//    //multiple exception handle in one method
+//    @ExceptionHandler(value={NullPointerException.class, NumberFormatException.class})
+//    public ResponseEntity<String> multipleExceptionHandler(Exception ex){
+//        System.out.println("Exception generated"+ex.getMessage());
+//
+//        return new ResponseEntity<>("Exception generated"+ex.getMessage(), HttpStatus.INTERNAL_SERVER_ERROR);
+//    }
 }
